@@ -6,7 +6,7 @@ import "./index.css";
 function PersonInfo(props) {
   const { person } = props;
   const [answer, setAnswer] = useState("");
-  const [status2, setStatus2] = useState("");
+  const [status2, setStatus2] = useState("pending");
   const handleChange = (event) => {
     setAnswer(event.target.value);
   };
