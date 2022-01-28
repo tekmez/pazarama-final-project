@@ -1,0 +1,38 @@
+.menu-top-container{
+    display: flex;
+}
+.search-form, .admin-panel, .home{
+    height: 100%;
+    background: rgba( 255, 255, 255, 255);
+    border-radius: 25px;
+    display: flex;
+    margin-right: 3em;
+}
+.admin-panel{
+    margin-right: 0;
+}
+.search-btn, .admin-btn, .home-btn{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    transition: 0.1s;
+    margin: 0;
+    padding: 0;
+}
+.admin-btn{
+    font-size: 18px;
+    padding-left: 1em;
+}
+.search-btn:hover, .admin-btn:hover, .home-btn:hover{
+    transform: scale(1.1);
+}
+.search-icon, .admin-icon, .home-icon{
+    margin-right: 1em;
+    font-size: 20px;
+}
+.admin-icon, .home-icon{
+    padding-left: 1em;
+}
+.search-icon{
+    margin-left: 1em;
+}

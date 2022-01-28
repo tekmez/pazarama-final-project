@@ -1,0 +1,73 @@
+.inputs-form{
+    width: 550px;
+    height: 550px;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: rgba( 255, 255, 255, 255);
+}
+.input{
+    font-size: 18px;
+    line-height: 16px;
+    box-sizing: border-box;
+    width: 250px;
+    height: 50px;
+    margin-top: 50px;
+    padding: 10px;
+    opacity: 0.9;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #2B86C5;
+}
+.input:focus{
+    border-bottom: 1px solid #FF3CAC;
+}
+.apply-btn, input[type=file]::file-selector-button {
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 17px;
+    color: #000;
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(210deg, #FF3CAC 0%, #784BA0 47%, #2B86C5 59%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+    transition: 0.4s;
+}
+  
+.apply-btn:hover, input[type=file]::file-selector-button:hover {
+    box-shadow: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.f-error, .l-error, .a-error, .t-error, .r-error, .ad-error{
+    position: absolute;
+    margin-top: 6.5em;
+    margin-right: 22em;
+    color: #FF3CAC;
+}
+.l-error, .t-error, .ad-error{
+    margin-left: 13em;
+    margin-right: 0;
+}
+.a-error, .t-error{
+    margin-top: 16em;
+}
+.r-error, .ad-error{
+    margin-top: 25.5em;
+}
+input[type=file]{
+    height: 50px;
+    width: 250px;
+}
+.a-error{
+    margin-left: 4em;
+    margin-right: 26em;
+}
+.t-error{
+    margin-left: 13em;
+}

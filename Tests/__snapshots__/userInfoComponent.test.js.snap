@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Info Component 1`] = `
+<div
+  className="user-info"
+>
+  <h2
+    className="title"
+  >
+    Name:
+     
+    <span
+      className="info"
+    >
+      Deneme
+       
+      Test
+    </span>
+  </h2>
+  <h2
+    className="title"
+  >
+    Age: 
+    <span
+      className="info"
+    >
+      25
+    </span>
+  </h2>
+  <h2
+    className="title"
+  >
+    IDN:
+    <span
+      className="info"
+    >
+      IDn
+    </span>
+  </h2>
+  <h2
+    className="title"
+  >
+    Reason: 
+    <span
+      className="info"
+    >
+      reason
+    </span>
+  </h2>
+  <h2
+    className="title"
+  >
+    Address: 
+    <span
+      className="info"
+    >
+      address
+    </span>
+  </h2>
+  <h2
+    className="title"
+  >
+    Status: 
+    <span
+      className="info"
+    >
+      status
+    </span>
+  </h2>
+  <h2
+    className="title"
+  >
+    Answer: 
+    <span
+      className="info"
+    >
+      answer
+    </span>
+  </h2>
+</div>
+`;

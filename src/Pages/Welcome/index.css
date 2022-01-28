@@ -1,0 +1,56 @@
+.welcome-top-container{
+    display: flex;
+}
+.welcome-text-container{
+    width: 650px;
+    height: 440px;
+    margin-right: 10em;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+}
+.welcome-btn-container{
+    width: 250px;
+    height: 440px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+}
+.welcome-title, .welcome-text{
+    width: 450px;
+    height: 50px;
+    /* background-color: #fff; */
+    border-radius: 15px;
+    text-align: center;
+}
+.welcome-text{
+    font-size: 20px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    line-height: 30px;
+}
+.medical{
+    position: absolute;
+    margin-left: 15px;
+}
+.search{
+    position: absolute;
+    margin-left: 25px;
+}
+.admin{
+    position: absolute;
+    margin-left: 55px;
+}
