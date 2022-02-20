@@ -1,19 +1,17 @@
 ## Bitirme projesi
-### Başvuru / ticket yönetim sistemi
+### Apllication Form / ticket management system
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3a29536c-2d7c-475a-844b-e9d103c3ef14/deploy-status)](https://app.netlify.com/sites/mellonform/deploys) -/- [Mellon Form](https://mellonform.netlify.app/)
 
-### Özellikler
+### Features
 
 ------------
+- Creating an application form
+- Status query with a special number for the created form
+- Reject or approve the application
+- Write a specific response to the form
 
-
-- Başvuru formu oluşturma
-- Oluşuturulan forma özel numara ile durum sorgulama
-- Başvuruyu red veya onaylama
-- Başvuruya özel cevap yazma
-
-### Kullanılan Teknolojiler & Araçlar
+### Technologies and Tools
 
 ------------
 
